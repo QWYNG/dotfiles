@@ -1,0 +1,4 @@
+os:
+  editPreset: 'vscode'
+gui:
+  showIcons: true
