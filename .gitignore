@@ -1,8 +1,7 @@
-*
+/*
 
 !.gitignore
-!raycast/
-!fish/
-!omf/
-!mise/
-!gh/
+!fish
+!omf
+!mise
+!gh
