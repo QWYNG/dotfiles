@@ -1,3 +1,5 @@
+set fish_greeting ""
+
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
 end
@@ -24,3 +26,7 @@ if status is-interactive
     eval (/opt/homebrew/bin/brew shellenv)
 end
 ~/.local/bin/mise activate fish | source
+
+if status is-interactive && not set -q TMUX
+    exec tmux new-session
+end
