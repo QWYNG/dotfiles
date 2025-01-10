@@ -2,3 +2,7 @@ os:
   editPreset: 'vscode'
 gui:
   showIcons: true
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
