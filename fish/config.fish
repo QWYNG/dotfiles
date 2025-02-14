@@ -8,6 +8,7 @@ alias gpm='git pull --rebase origin master'
 alias gcf 'git branch | grep -v "master" | xargs git branch -D'
 alias gl='git log -p --name-only'
 alias rua='git diff --name-only | grep .rb | grep -v schema.rb | xargs bundle exec rubocop -A'
+alias current_branch='git branch --show-current'
 
 set PATH ~/.cargo/bin/ $PATH
 set PATH /opt/homebrew/bin $PATH
@@ -20,9 +21,6 @@ set EDITOR 'emacs -nw'
 set PATH ~/.cargo/bin/ $PATH
 set PATH /Users/qwyng/Library/Application\ Support/JetBrains/Toolbox/scripts/ $PATH
 set PATH /opt/homebrew/bin $PATH
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/qwyng/google-cloud-sdk/path.fish.inc' ]; . '/Users/qwyng/google-cloud-sdk/path.fish.inc'; end
 if status is-interactive
     eval (/opt/homebrew/bin/brew shellenv)
 end
@@ -31,3 +29,6 @@ end
 if status is-interactive && not set -q TMUX
     exec tmux new-session
 end
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc' ]; . '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc'; end
