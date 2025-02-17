@@ -1,6 +1,7 @@
 /*
 
 !.gitignore
+!fish/
 !fish/config.fish
 !omf
 !mise

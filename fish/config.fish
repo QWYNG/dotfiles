@@ -9,6 +9,7 @@ alias gcf 'git branch | grep -v "master" | xargs git branch -D'
 alias gl='git log -p --name-only'
 alias rua='git diff --name-only | grep .rb | grep -v schema.rb | xargs bundle exec rubocop -A'
 alias current_branch='git branch --show-current'
+alias zed='zed-preview'
 
 set PATH ~/.cargo/bin/ $PATH
 set PATH /opt/homebrew/bin $PATH
