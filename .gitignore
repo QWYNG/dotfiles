@@ -2,6 +2,7 @@
 
 !.gitignore
 !fish/
+fish/*
 !fish/config.fish
 !omf
 !mise
@@ -9,5 +10,6 @@
 !lazygit
 !tmux
 !zed/
+zed/*
 !zed/keymap.json
 !zed/settings.json
