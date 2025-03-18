@@ -18,6 +18,11 @@ alias be='bundle exec'
 alias bi='bundle install'
 alias ls='exa -lh --group-directories-first --icons'
 
+function dirtouch
+  mkdir -p "$(dirname $1)"
+  touch "$1"
+end
+
 set EDITOR 'emacs -nw'
 set PATH ~/.cargo/bin/ $PATH
 set PATH /Users/qwyng/Library/Application\ Support/JetBrains/Toolbox/scripts/ $PATH
@@ -31,5 +36,6 @@ if status is-interactive && not set -q TMUX
     exec tmux new-session
 end
 
+export DISABLE_SPRING=true
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc' ]; . '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc'; end

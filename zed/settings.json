@@ -27,5 +27,16 @@
     "mode": "system",
     "light": "Atelier Seaside Light",
     "dark": "Gruvbox Light Soft"
+  },
+  "lsp": {
+    "solargraph": {
+      "initialization_options": {
+        "diagnostics": true,
+        "formatting": true
+      },
+      "settings": {
+        "use_bundler": false
+      }
+    }
   }
 }
