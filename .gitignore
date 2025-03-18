@@ -12,3 +12,5 @@
 !zed/keymap.json
 !zed/settings.json
 !Brewfile
+!iTerm2 *
+!Raycast *
