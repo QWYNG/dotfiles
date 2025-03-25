@@ -16,7 +16,7 @@ set PATH /opt/homebrew/bin $PATH
 
 alias be='bundle exec'
 alias bi='bundle install'
-alias ls='exa -lh --group-directories-first --icons'
+alias ls='eza -lh --group-directories-first --icons'
 
 function dirtouch
   mkdir -p "$(dirname $1)"
