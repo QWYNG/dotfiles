@@ -23,6 +23,24 @@
       "milliseconds": 100
     }
   },
+  "languages": {
+    "Ruby": {
+      "language_servers": ["ruby-lsp", "!solargraph", "..."],
+      "tab_size": 2,
+      "enable_language_server": true,
+      "format_on_save": true
+    }
+  },
+  "lsp": {
+    "ruby-lsp": {
+      "initialization_options": {
+        "enabledFeatures": {
+          // This disables diagnostics
+          "diagnostics": false
+        }
+      }
+    }
+  },
   "theme": {
     "mode": "system",
     "light": "Atelier Seaside Light",

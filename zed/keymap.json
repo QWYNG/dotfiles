@@ -14,7 +14,9 @@
   {
     "context": "Editor",
     "bindings": {
-      "shift-super-c": "workspace::CopyRelativePath"
+      "shift-super-c": "workspace::CopyRelativePath",
+      "alt-ctrl-p": "editor::MoveLineUp",
+      "alt-ctrl-n": "editor::MoveLineDown"
     }
   }
 ]
