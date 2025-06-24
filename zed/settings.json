@@ -9,8 +9,8 @@
 {
   "assistant": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet-thought"
     },
     "version": "2"
   },
@@ -28,7 +28,6 @@
       "language_servers": ["ruby-lsp", "!solargraph", "..."],
       "tab_size": 2,
       "enable_language_server": true,
-      "format_on_save": true
     }
   },
   "lsp": {
