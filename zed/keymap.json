@@ -12,11 +12,14 @@
     }
   },
   {
-    "context": "Editor",
     "bindings": {
       "shift-super-c": "workspace::CopyRelativePath",
       "alt-ctrl-p": "editor::MoveLineUp",
-      "alt-ctrl-n": "editor::MoveLineDown"
+      "alt-ctrl-n": "editor::MoveLineDown",
+      "alt-e": "editor::Copy",
+      "alt-w": ["workspace::SendKeystrokes", "alt-e escape"],
+      "ctrl-q": "editor::Cut",
+      "ctrl-w": ["workspace::SendKeystrokes", "ctrl-q escape"],
     }
   }
 ]
