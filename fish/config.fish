@@ -37,5 +37,4 @@ if status is-interactive && not set -q TMUX
 end
 
 export DISABLE_SPRING=true
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc' ]; . '/Users/hiroaki.osawa/google-cloud-sdk/path.fish.inc'; end
+zoxide init fish | source
