@@ -1,4 +1,4 @@
-dotfiles_repo: https://github.com/nateberkopec/dotfiles.git
+dotfiles_repo: https://github.com/QWYNG/dotfiles.git
 
 home_paths:
   fish_config_dir: ~/.config/fish
@@ -11,7 +11,7 @@ home_paths:
 application_paths:
   ghostty_config_dir: ~/Library/Application Support/com.mitchellh.ghostty/
   ghostty_config_file: ~/Library/Application Support/com.mitchellh.ghostty/config
-  
+
   vscode_user_dir: ~/Library/Application Support/Code/User
   vscode_settings: ~/Library/Application Support/Code/User/settings.json
   vscode_keybindings: ~/Library/Application Support/Code/User/keybindings.json

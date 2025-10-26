@@ -16,7 +16,7 @@ class Dotfiles
     end
 
     def dotfiles_repo
-      paths["dotfiles_repo"] || "https://github.com/nateberkopec/dotfiles.git"
+      paths["dotfiles_repo"] || "https://github.com/QWYNG/dotfiles.git"
     end
 
     private

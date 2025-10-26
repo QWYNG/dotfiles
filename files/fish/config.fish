@@ -24,8 +24,6 @@ if test -f ~/.config/fish/private.fish
   source ~/.config/fish/private.fish
 end
 
-alias mosh-mbp "mosh --server='SHELL=/opt/homebrew/bin/fish /opt/homebrew/bin/mosh-server' nateberkopec@MBP-Server.local"
-
 eval (~/Documents/Code.nosync/upstream/try/try.rb init | string collect)
 
 mise activate fish | source

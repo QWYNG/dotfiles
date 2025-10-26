@@ -31,7 +31,7 @@ class ConfigTest < Minitest::Test
     require "tmpdir"
     Dir.mktmpdir do |dir|
       config = Dotfiles::Config.new(dir)
-      assert_equal "https://github.com/nateberkopec/dotfiles.git", config.dotfiles_repo
+      assert_equal "https://github.com/QWYNG/dotfiles.git", config.dotfiles_repo
     end
   end
 

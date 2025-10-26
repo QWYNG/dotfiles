@@ -6,7 +6,7 @@ Personal configuration files for my development environment.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/nateberkopec/dotfiles.git ~/.dotfiles
+   git clone https://github.com/QWYNG/dotfiles.git ~/.dotfiles
    ```
 
 2. Run the setup:

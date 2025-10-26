@@ -1,13 +1,12 @@
 [user]
-	name = Nate Berkopec
-	email = nate.berkopec@gmail.com
-	signingkey = 19616755F4328D71
+	name = QWYNG
+	email = ikusawasi@gmail.com
 [push]
   default = simple
         followTags = true
 	autoSetupRemote = true
 [github]
-  user = nateberkopec
+  user = QWYNG
 [credential]
 	helper = osxkeychain
 [filter "lfs"]
@@ -40,7 +39,7 @@
         wt = "!f() { git worktree add .worktrees/$1 $1; }; f"
         wtn = "!f() { git worktree add -b $1 .worktrees/$1; }; f"
 [core]
-        excludesfile = /Users/nateberkopec/.gitignore
+        excludesfile = /Users/qwyng/.gitignore
 	editor = code -w
 [pull]
         rebase = false
@@ -49,6 +48,4 @@
 [branch]
 	sort = -committerdate
 [commit]
-	gpgsign = true
-[gpg]
-	program = gpg
+	gpgsign = false
