@@ -18,3 +18,4 @@ dotfiles_sources:
   ghostty_config: files/ghostty/config
   aerospace_config: files/aerospace/.aerospace.toml
   git_config: files/git/.gitconfig
+  starship_config: files/starship/starship.toml
