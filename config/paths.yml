@@ -7,6 +7,8 @@ home_paths:
   gitconfig: ~/.gitconfig
   aerospace_config: ~/.aerospace.toml
   zprofile: ~/.zprofile
+  tmux_config: ~/.config/tmux
+  tmux_config_file: ~/.tmux.conf
 
 application_paths:
   ghostty_config_dir: ~/Library/Application Support/com.mitchellh.ghostty/
@@ -19,3 +21,4 @@ dotfiles_sources:
   aerospace_config: files/aerospace/.aerospace.toml
   git_config: files/git/.gitconfig
   starship_config: files/starship/starship.toml
+  tmux_config: files/tmux/.tmux.conf
