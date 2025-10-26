@@ -258,6 +258,7 @@ sox
 speex
 sqlite
 srt
+starship
 stress-ng
 stripe
 svgo

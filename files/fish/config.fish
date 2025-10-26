@@ -11,6 +11,7 @@ set -x LC_ALL en_US.UTF-8
 set -x MAKEFLAGS -j(nproc)
 set -x EDITOR "emacs --nw"
 
+starship init fish | source
 zoxide init fish | source
 complete -c z -f -k -a "(zoxide query -l)"
 alias cd z
