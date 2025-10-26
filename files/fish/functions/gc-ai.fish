@@ -285,7 +285,7 @@ function _validate_message
             return 1
         end
     else
-        set summary_length (string length "$summary")
+        set summary_length (string length -- $summary)
         if test $summary_length -gt 100
             echo "Summary too long ($summary_length chars), regenerating..."
             return 1
