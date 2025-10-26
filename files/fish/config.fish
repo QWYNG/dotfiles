@@ -9,7 +9,7 @@ set -g fish_greeting
 set -x LANG en_US.UTF-8
 set -x LC_ALL en_US.UTF-8
 set -x MAKEFLAGS -j(nproc)
-set -x EDITOR "code --wait"
+set -x EDITOR "emacs --nw"
 
 zoxide init fish | source
 complete -c z -f -k -a "(zoxide query -l)"
@@ -24,7 +24,7 @@ if test -f ~/.config/fish/private.fish
   source ~/.config/fish/private.fish
 end
 
-eval (~/Documents/Code.nosync/upstream/try/try.rb init | string collect)
+eval (~/try/try.rb init | string collect)
 
 mise activate fish | source
 
