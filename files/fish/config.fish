@@ -16,7 +16,7 @@ zoxide init fish | source
 complete -c z -f -k -a "(zoxide query -l)"
 alias cd z
 alias be="bundle exec"
-alias cat bat
+alias cat="bat --paging=never"
 function mosh
   command mosh --predict=experimental $argv
 end
